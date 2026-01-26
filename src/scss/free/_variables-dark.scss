@@ -42,7 +42,7 @@ $dark-border-subtle-dark: $gray-800 !default;
 // scss-docs-end theme-border-subtle-variables
 
 $body-color-dark: $white !default;
-$body-bg-dark: #303030 !default;
+$body-bg-dark: #1f1f1f !default;
 $body-secondary-bg-dark: $gray-800 !default;
 $body-tertiary-bg-dark: mix($gray-800, $gray-900, 50%) !default;
 $border-color-dark: rgba(255, 255, 255, 0.12) !default;
@@ -52,7 +52,7 @@ $border-color-translucent-dark: rgba($white, 0.15) !default;
 
 // scss-docs-start mdb-global-dark-theme-variables
 $surface-color-dark: $white !default;
-$surface-bg-dark: #424242 !default;
+$surface-bg-dark: #333333 !default;
 $surface-inverted-color-dark: $white !default;
 $surface-inverted-bg-dark: #757575 !default;
 $divider-color-dark: rgba(255, 255, 255, 0.12) !default;

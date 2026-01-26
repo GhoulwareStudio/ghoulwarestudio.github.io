@@ -1,4 +1,5 @@
 @use 'load';
+@use 'colors';
 
 .logo-container{
     display:flex;
@@ -29,4 +30,12 @@
 
 .mask::before{
     background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+}
+
+h4, h5.card-title{
+    color: colors.$primary;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
 }

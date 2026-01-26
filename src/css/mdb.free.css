@@ -128,8 +128,8 @@
   color-scheme: dark;
   --mdb-body-color: #fff;
   --mdb-body-color-rgb: 255, 255, 255;
-  --mdb-body-bg: #303030;
-  --mdb-body-bg-rgb: 48, 48, 48;
+  --mdb-body-bg: #1f1f1f;
+  --mdb-body-bg-rgb: 31, 31, 31;
   --mdb-emphasis-color: #fff;
   --mdb-emphasis-color-rgb: 255, 255, 255;
   --mdb-secondary-color: rgba(255, 255, 255, 0.75);
@@ -14591,7 +14591,7 @@ textarea.form-control-lg {
   color-scheme: dark;
   --mdb-surface-color: #fff;
   --mdb-surface-color-rgb: 255, 255, 255;
-  --mdb-surface-bg: #424242;
+  --mdb-surface-bg: #333333;
   --mdb-surface-inverted-color: #fff;
   --mdb-surface-inverted-color-rgb: 255, 255, 255;
   --mdb-surface-inverted-bg: #757575;

@@ -1,10 +1,26 @@
 @use 'colors';
+@use '../src/scss/free/variables';
+
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: 600px) { @content; }
+  }
+  @elseif $point == medium {
+    @media (max-width: 900px) { @content; }
+  }
+  @elseif $point == large {
+    @media (max-width: 1200px) { @content; }
+  }
+}
 
 .svg-btn{
     fill: colors.$primary;
     height:1em;
 }
 
+
+
 .card-container{
-    max-width: 50%;
+    @media (min-width: 992px) { max-width: 50%; }
+    
 }

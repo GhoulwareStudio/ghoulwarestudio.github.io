@@ -3,8 +3,10 @@
   height: 1em;
 }
 
-.card-container {
-  max-width: 50%;
+@media (min-width: 992px) {
+  .card-container {
+    max-width: 50%;
+  }
 }
 
 body {
@@ -105,4 +107,12 @@ body {
 
 .mask::before {
   background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+}
+
+h4, h5.card-title {
+  color: #09FA8E;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
 }
