@@ -1,45 +1,12 @@
-:root,
-[data-bs-theme=light] {
-  --bs-primary: #09FA8E;
+.svg-btn {
+  fill: #09FA8E;
+  height: 1em;
 }
 
-[data-bs-theme=dark] {
-  --bs-primary: #09FA8E;
+.card-container {
+  max-width: 50%;
 }
 
-.btn-primary {
-  --bs-btn-bg: #09FA8E;
-  --bs-btn-border-color: #09FA8E;
-  --bs-btn-color: #252525;
-}
-
-.btn-outline-primary {
-  --bs-btn-border-color: #09FA8E;
-  --bs-btn-hover-bg: #09FA8E;
-  --bs-btn-hover-border-color: #09FA8E;
-  --bs-btn-color: #09FA8E;
-  --bs-btn-hover-color: #252525;
-}
-
-.btn-form {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-/*
- * Globals
- */
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-/*
- * Base structure
- */
 body {
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
@@ -117,4 +84,25 @@ body {
 
 .logo {
   max-width: 45%;
+}
+
+.video-cover {
+  background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+}
+
+.video-cover::before {
+  z-index: -9;
+  background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.mask::before {
+  background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
 }

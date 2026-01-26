@@ -9,3 +9,24 @@
 .logo{
     max-width: 45%;
 }
+
+.video-cover{
+    background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+}
+
+.video-cover::before {
+  z-index: -9;
+  background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.mask::before{
+    background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
+}

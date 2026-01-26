@@ -1,23 +1,10 @@
 @use 'colors';
 
-.btn-primary{
-    --bs-btn-bg: #{colors.$primary};
-    --bs-btn-border-color: #{colors.$primary};
-    --bs-btn-color: #{colors.$text-dark};
+.svg-btn{
+    fill: colors.$primary;
+    height:1em;
 }
 
-.btn-outline-primary {
-    --bs-btn-border-color: #{colors.$primary};
-    --bs-btn-hover-bg: #{colors.$primary};
-    --bs-btn-hover-border-color: #{colors.$primary};
-    --bs-btn-color: #{colors.$primary};
-    --bs-btn-hover-color: #{colors.$text-dark};
-}
-
-.btn-form{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.social-btn{
+.card-container{
+    max-width: 50%;
 }

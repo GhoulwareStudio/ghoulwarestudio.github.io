@@ -1,9 +1,1 @@
 @use 'colors';
-
-:root,
-[data-bs-theme=light] {
-    --bs-primary: #{colors.$primary};
-}
-[data-bs-theme=dark] {
-    --bs-primary: #{colors.$primary};
-}
