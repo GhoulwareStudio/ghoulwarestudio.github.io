@@ -1,0 +1,11 @@
+@use 'load';
+
+.logo-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo{
+    max-width: 45%;
+}
