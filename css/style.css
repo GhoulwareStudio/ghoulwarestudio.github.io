@@ -116,3 +116,7 @@ h4, h5.card-title {
 .navbar {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+.partner-img img {
+  max-height: 200px;
+}
