@@ -72,6 +72,29 @@ body {
   border-bottom-color: #fff;
 }
 
+@-webkit-keyframes bounce-down {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes bounce-down {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
 .logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +132,8 @@ body {
   background: rgba(0, 0, 0, 0.4) url(../img/background-overlay.png) repeat;
 }
 
-h4, h5.card-title {
+h4,
+h5.card-title {
   color: #09FA8E;
 }
 
@@ -119,4 +143,28 @@ h4, h5.card-title {
 
 .partner-img img {
   max-height: 200px;
+}
+
+.my-6 {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+#aboutus {
+  font-size: 1.5rem;
+}
+
+.bounce {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  -webkit-animation-name: bounce-down;
+          animation-name: bounce-down;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
