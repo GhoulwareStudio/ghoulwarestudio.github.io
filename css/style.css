@@ -143,6 +143,7 @@ h5.card-title {
 
 .partner-img {
   position: relative;
+  cursor: pointer;
 }
 .partner-img img {
   max-height: 200px;
